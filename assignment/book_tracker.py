@@ -5,6 +5,10 @@ def dashboard():
     40 '='
     """
     # your code here
+<<<<<<< HEAD
+=======
+    # to do this without for loops print("================================================") 
+>>>>>>> 5a27ade30f4d617221cadef63b64a7286645d9ee
     
     for i in range (40):
         print("=", end="")
