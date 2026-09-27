@@ -5,14 +5,10 @@ def dashboard():
     40 '='
     """
 
-    for i in range (40):
-        print("=", end="")
-    print()
-
+    print("="*40)
     print("📚  YOUR LIBRARY")
+    print("="*40)
 
-    for i in range (40):
-        print("=", end="")
     print()
 
 def estimate_reading_time(pages):
