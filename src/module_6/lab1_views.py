@@ -6,7 +6,7 @@ from PIL import Image
 
 
 def main():
-    with open("analysis.csv", "r") as views, open("analysis.csv", "w") as analysis:
+    with open("views.csv", "r") as views, open("analysis.csv", "w") as analysis:
         reader = csv.DictReader(views)
         writer = csv.DictWriter(analysis, fieldnames=["id" ,"english_title" ,"japanese_title" ,"brightness"])
 
